@@ -1,0 +1,26 @@
+{
+  "name": "crud-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israq/CRUD-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Israq/CRUD-Application/issues"
+  },
+  "homepage": "https://github.com/Israq/CRUD-Application#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.0.5",
+    "nodemon": "^2.0.22"
+  }
+}
