@@ -2,7 +2,7 @@ const express = require("express");
 
 
 const app = express();
-
+const mongoose = require('mongoose');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 require('dotenv/config');
 
